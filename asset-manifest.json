@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/fujisaskia/personal-web-puji/static/css/main.eaea25ae.css",
+    "main.js": "/fujisaskia/personal-web-puji/static/js/main.a5fa928b.js",
+    "static/media/website.png": "/fujisaskia/personal-web-puji/static/media/website.6d1a871278d4ea389363.png",
+    "static/media/myphoto.png": "/fujisaskia/personal-web-puji/static/media/myphoto.fe1b3d493b7d07e53abb.png",
+    "static/media/certificate.jpg": "/fujisaskia/personal-web-puji/static/media/certificate.05ac8a769bbfa6cfa1de.jpg",
+    "static/media/figma.jpg": "/fujisaskia/personal-web-puji/static/media/figma.193e21a71f54d73647ae.jpg",
+    "static/media/school.svg": "/fujisaskia/personal-web-puji/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
+    "index.html": "/fujisaskia/personal-web-puji/index.html",
+    "main.eaea25ae.css.map": "/fujisaskia/personal-web-puji/static/css/main.eaea25ae.css.map",
+    "main.a5fa928b.js.map": "/fujisaskia/personal-web-puji/static/js/main.a5fa928b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eaea25ae.css",
+    "static/js/main.a5fa928b.js"
+  ]
+}

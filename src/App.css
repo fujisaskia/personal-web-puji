@@ -1,0 +1,122 @@
+body {
+  background: #fd76a3;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  /* color: rgb(255, 255, 255); #212529 */
+}
+
+
+.hover-zoom {
+  transition: transform 0.3s ease; /* Animasi halus saat transformasi */
+}
+
+.hover-zoom:hover {
+  transform: scale(1.1); /* Membesar saat di-hover */
+}
+
+.hover-zoom-card {
+  transition: transform 0.2s ease; /* Animasi halus saat transformasi */
+}
+
+.hover-zoom-card:hover {
+  transform: scale(1.1); /*Membesar saat di-hover*/
+}
+
+
+#about {
+  padding-top: 20px;
+  background: #20252a;
+  min-height: 100vh;
+}
+
+#contact {
+  padding-top: 20px;
+  background: #20252a;
+}
+
+#portofolio {
+  background-color: #1a1f22;
+  min-height: 100vh;
+}
+
+
+.card-hidden-design {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+}
+
+.card-hidden-frontend {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+}
+
+.card-hidden-certificate {
+  opacity: 0;
+  transform: translateY(70px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.card-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+#home {
+  background: #1a1f22;
+  min-height: 100vh;
+}
+
+
+.title {
+  font-size: 5em;
+  text-align: center;
+}
+
+.p {
+  font-size: 5em;
+  padding-top: 0.25em;
+}
+
+/* .vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em !important;
+} */
+
+.date {
+  color: #FFCDD2;
+}
+
+.vertical-timeline-element-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.vertical-timeline-element-date {
+  font-size: 1rem;
+  color: #FFCDD2;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.vertical-timeline-element-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+@media only screen and (max-width: 769px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
+  }
+}
+
